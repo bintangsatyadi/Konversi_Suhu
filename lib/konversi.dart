@@ -18,8 +18,6 @@ class _KonversiSuhuPageState extends State<KonversiSuhuPage> {
       // Perform temperature conversion
       _resultKelvin = celcius + 273.15;
       _resultReamur = 0.8 * celcius;
-
-      // Update UI with new results
       setState(() {});
     }
   }
